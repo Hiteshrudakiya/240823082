@@ -18,3 +18,5 @@
 // else{
 //     console.log("b is big "+b)
 // }
+hello 
+welcome 
