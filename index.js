@@ -18,5 +18,42 @@
 // else{
 //     console.log("b is big "+b)
 // }
-hello 
-welcome 
+
+
+
+// program 3:check leap year
+// const year=2020
+// if(year%4==0)
+// {
+//     console.log(year+" is leap year")
+// }
+// else{
+//     console.log(year+" is not leap year")
+// }
+
+
+// program 4 :sum of nature numbers
+// const no=5
+// var sum=0
+// for( i=1;i<=no;i++)
+// {
+//     sum=sum+i
+// }
+// console.log("sum is "+sum)
+
+
+
+// program 5: factorial number
+// const fact=1
+// var total=1
+// if(fact<0 || fact==0 || fact==1)
+// {
+//     console.log("enter proper number")
+// }
+// else{
+// for(i=fact;i>0;i--)
+// {
+//     total=total*i
+// }
+// console.log(total)
+// }
