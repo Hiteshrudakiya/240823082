@@ -44,7 +44,7 @@
 
 
 // program 5: factorial number
-// const fact=1
+// const fact=4
 // var total=1
 // if(fact<0 || fact==0 || fact==1)
 // {
@@ -57,3 +57,13 @@
 // }
 // console.log(total)
 // }
+
+// program 6: print multipaction table
+
+const table=3
+let ans=0
+for(i=1;i<=10;i++)
+{
+    ans=table*i
+    console.log(table+" * "+i+" = "+ans)
+}
