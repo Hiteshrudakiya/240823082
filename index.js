@@ -181,3 +181,53 @@
 // }
 // console.log(count)
 
+// program 13 generate febonaci seriese 
+// let n=10
+// let a=0
+// let b=1
+// for (let i=1;i<=10;i++)
+// {
+//     console.log(a)
+//     let temp=a+b
+//     a=b;
+//     b=temp
+// }
+
+// program 14: check vowel or consonant
+
+// let ch='i'
+// if(ch>='a' && ch<='z')
+// {
+//     if(ch=='a'||ch=='e'||ch=='u'||ch=='i'||ch=='o')
+//     {
+//         console.log("vowel")
+//     }
+//     else{
+//         console.log("not vowel")
+//     }
+// }
+
+// program 15 : simple calculation
+let input ="4 - 2"
+let cut=input.split(" ")
+let num1=parseFloat(cut[0])
+let num2=cut[1]
+let num3=parseFloat(cut[2])
+let sum=0
+if(num2=='+')
+{
+    sum=num1+num3
+}
+if(num2=='-')
+{
+    sum=num1-num3
+}
+if(num2=='*')
+{
+    sum=num1*num3
+}
+if(num2=='/')
+{
+    sum=num1/num3
+}
+console.log(sum)
