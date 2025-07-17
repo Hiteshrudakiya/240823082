@@ -59,11 +59,125 @@
 // }
 
 // program 6: print multipaction table
+// const table=3
+// let ans=0
+// for(i=1;i<=10;i++)
+// {
+//     ans=table*i
+//     console.log(table+" * "+i+" = "+ans)
+// }
 
-const table=3
-let ans=0
-for(i=1;i<=10;i++)
-{
-    ans=table*i
-    console.log(table+" * "+i+" = "+ans)
-}
+
+
+// // program 7: reverse number
+// const num=1234
+// let str=num.toString();
+// let rev=''
+// for(let i=str.length-1;i>=0; i--)
+// {
+//     rev=rev+str[i]
+// }
+// console.log(rev)
+
+
+
+//program 8 :palindrome check
+// let no=121
+// let rev= 0
+// let org=no
+// while(no>0)
+// {
+//    let digit=no%10;
+//    rev=rev*10+digit;
+//    no=Math.floor(no/10);
+// }
+// if(org===rev)
+// {
+//     console.log("palindrome")
+// }
+// else{
+//     console.log("not palindrome")
+// }
+
+
+
+// program 9: check prime Number
+// let no=7
+// let flag=true
+
+// if(no<=1)
+// {
+//     console.log("enter proper values")
+// }
+// else{
+//     for(let i=2;i<no;i++)
+//     {
+//         if(no%i==0)
+//         {
+//             flag=false
+//             break
+//         }
+//     }
+// }
+// if(flag)
+// {
+//     console.log("prime number")
+// }
+// else{
+//     console.log("not prime")
+// }
+
+
+// program 10: count the digit
+
+// let num=12346
+// let count =0
+// while(num>0)
+// {
+//     num=Math.floor(num/10)
+//     count++
+// }
+// console.log(count)
+
+
+// program 11:sum of digit 
+// let number=129
+// let sum=0
+// while(number>0)
+// {
+//     let digit=number%10
+//     sum+=digit
+//     number=Math.floor(number/10)
+// }
+// console.log(sum)
+
+// prgram 12 : armstrong check
+// let no=1534
+// let sum=0
+// let org=no
+
+// let count=0
+// let temp=no
+// while(temp>0)
+// {
+//     count++
+//     temp=Math.floor(temp/10)
+// }
+
+// temp=no
+// while(temp>0)
+// {
+//     let digit=temp%10
+//     sum+=Math.pow(digit,count)
+//     temp=Math.floor(temp/10)
+
+// }
+// if(sum==org)
+// {
+//     console.log("armstrong")
+// }
+// else{
+//     console.log("not armstrong")
+// }
+// console.log(count)
+
