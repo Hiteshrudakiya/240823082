@@ -208,26 +208,94 @@
 // }
 
 // program 15 : simple calculation
-let input ="4 - 2"
-let cut=input.split(" ")
-let num1=parseFloat(cut[0])
-let num2=cut[1]
-let num3=parseFloat(cut[2])
-let sum=0
-if(num2=='+')
+// let input ="4 - 2"
+// let cut=input.split(" ")
+// let num1=parseFloat(cut[0])
+// let num2=cut[1]
+// let num3=parseFloat(cut[2])
+// let sum=0
+// if(num2=='+')
+// {
+//     sum=num1+num3
+// }
+// if(num2=='-')
+// {
+//     sum=num1-num3
+// }
+// if(num2=='*')
+// {
+//     sum=num1*num3
+// }
+// if(num2=='/')
+// {
+//     sum=num1/num3
+// }
+// console.log(sum)
+
+// program 16 : find gcd
+// let a=24
+// let b=36
+// while(b)
+// {
+//     let temp=b
+//     b=a%b
+//     a=temp
+// }
+// console.log(a)
+
+//program 17: check perfact number
+// let no=28
+// let count=0
+// for(i=1;i<no;i++)
+// {
+//     if(no%i==0)
+//     {
+//         count+=i
+//     }
+// }
+//     if(count==no)
+//     {
+//         console.log("perfact")
+//     }
+//     else{
+//         console.log("not perfact")
+//     }
+  
+
+// program 18: print all divisors
+// let a=36
+// for(i=1;1<a;i++)
+// {
+//     if(a%i==0)
+//     {
+//         console.log(i)
+//     }
+// }
+// console.log("end of program")
+
+// program 19: number is Positive,negative or zero
+
+// let num=0
+// if(num>0)
+// {
+//     console.log("positive")
+// }
+// else if(num<0)
+// {
+//     console.log("negative")
+// }
+// if(num==0)
+// {
+//     console.log("zero")
+// }
+
+// program 20: find the power
+
+let no=5
+let power=3
+let result=1
+for(i=0;i<3;i++)
 {
-    sum=num1+num3
+    result*=no
 }
-if(num2=='-')
-{
-    sum=num1-num3
-}
-if(num2=='*')
-{
-    sum=num1*num3
-}
-if(num2=='/')
-{
-    sum=num1/num3
-}
-console.log(sum)
+console.log(result)
