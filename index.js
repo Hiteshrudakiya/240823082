@@ -208,7 +208,7 @@
 // }
 
 // program 15 : simple calculation
-// let input ="4 - 2"
+// let input ="4 + 2"
 // let cut=input.split(" ")
 // let num1=parseFloat(cut[0])
 // let num2=cut[1]
@@ -230,7 +230,7 @@
 // {
 //     sum=num1/num3
 // }
-// console.log(sum)
+console.log(sum)
 
 // program 16 : find gcd
 // let a=24
@@ -291,11 +291,11 @@
 
 // program 20: find the power
 
-let no=5
-let power=3
-let result=1
-for(i=0;i<3;i++)
-{
-    result*=no
-}
-console.log(result)
+// let no=5
+// let power=3
+// let result=1
+// for(i=0;i<3;i++)
+// {
+//     result*=no
+// }
+// console.log(result)
